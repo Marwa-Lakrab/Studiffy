@@ -13,7 +13,7 @@ pipeline {
                 // Récupérer le code source depuis le dépôt Git
                 checkout([$class: 'GitSCM', 
                     branches: [[name: '*/master']],
-                    userRemoteConfigs: [[url: 'https://github.com/Marwa-Lakrab/project-automation.git']]
+                    userRemoteConfigs: [[url: 'https://github.com/Marwa-Lakrab/Studiffy.git']]
                 ])
             }
         }
